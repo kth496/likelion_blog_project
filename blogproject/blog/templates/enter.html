@@ -9,16 +9,10 @@
         <link rel="stylesheet" href="{% static 'css/enter.css'%}">
     </head>
     <body>
-        <div id="wrap">
-            <div id ="box">
-                <div class = "main">
-                    <form action="{% url 'home' %}">
-                        <p><strong>배지현의 Blog</strong>에 오신걸 환영합니다.</p>    
-                        <p>입장하시겠습니까?</p>
-                        <input type="button" value="네">
-                    </form>
-                </div>
-            </div>
+        <div class = "main">
+            <p><strong>배지현의 Blog</strong>에 오신걸 환영합니다.</p>    
+            <p>입장하시겠습니까?</p>
+            <input type="button" value="네" onClick="location.href= '#' ">>
         </div>
     </body>
 </html>
