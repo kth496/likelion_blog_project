@@ -5,11 +5,11 @@
     flex-direction: row;
 }
 .left{
-    height: 100vh;
+    height: 100%;
     padding-top: 5%;
     width: 35%;
     text-align: center;
-    background-color: aqua;
+    background-color: aliceblue;
     flex-grow: 1; 
 }
 .right{
